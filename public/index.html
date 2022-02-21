@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="../src/styles/main.css">
   
   <title>Frontend Mentor | Time tracking dashboard</title>
 
@@ -15,11 +19,11 @@
   </style> -->
 </head>
 <body>
-  <div>
-    <header>
-      <img src="../images/image-jeremy.png" alt="Retrato propio">
+  <div class="block first-container">
+    <header> 
+      <img src="../images/image-jeremy.png" alt="Retrato propio" id="perfil-img">
       <p>Report for</p>
-      <p>Jeremy Robson</p>
+      <p id="name">Jeremy Robson</p>
     </header>
     <nav>
       <ul>
@@ -30,7 +34,7 @@
     </nav>
   </div>
 
-  <section class="work_container">
+  <section class="block work_container">
     <img src="../images/icon-work.svg">
     <div>
       <h3>Work</h3>
@@ -40,7 +44,7 @@
     </div>
   </section>
 
-  <section class="play_container">
+  <section class="block play_container">
     <img src="../images/icon-play.svg">
     <div>
       <h3>Play</h3>
@@ -50,7 +54,7 @@
     </div>
   </section>
 
-  <section class="study_container">
+  <section class="block study_container">
     <img src="../images/icon-study.svg">
     <div>
       <h3>Study</h3>
@@ -60,7 +64,7 @@
     </div>
   </section>
 
-  <section class="exercise_container">
+  <section class="block exercise_container">
     <img src="../images/icon-exercise.svg">
     <div>
       <h3>Exercise</h3>
@@ -70,7 +74,7 @@
     </div>
   </section>
 
-  <section class="social_container">
+  <section class="block social_container">
     <img src="../images/icon-social.svg">
     <div>
       <h3>Social</h3>
@@ -80,7 +84,7 @@
     </div>
   </section>
 
-  <section class="self-care_container">
+  <section class="block self-care_container">
     <img src="../images/icon-self-care.svg">
     <div>
       <h3>Self Care</h3>
