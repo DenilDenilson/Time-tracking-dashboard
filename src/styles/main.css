@@ -24,11 +24,11 @@ body {
   height: 200px;
   margin-bottom: 12px;
   background-color: #1c1f4a;
+  border-radius: 16px;
 }
 
 .first-container {
   margin-top: 32px;
-  border-radius: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,5 +117,71 @@ body {
   color: #bdc1ff;
   font-family: "Rubik", sans-serif;
   font-weight: 300;
+}
+
+.block2 {
+  width: 300px;
+  height: 160px;
+}
+
+.work_container {
+  background-color: #ff8c66;
+  position: relative;
+}
+
+.work_container .main-img {
+  position: absolute;
+  right: 0;
+  top: -10px;
+}
+
+.work_container div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  background-color: #1c1f4a;
+  border-radius: 16px;
+  width: 300px;
+  height: 112px;
+  position: absolute;
+  bottom: -2px;
+}
+
+.work_container div h3 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: aliceblue;
+  justify-self: flex-start;
+  padding-left: 20px;
+  padding-bottom: 4px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.work_container div p:last-child {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #bdc1ff;
+  padding: 9px 0 0 0;
+}
+
+.work_container div p:nth-child(3) {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  padding-left: 20px;
+  color: aliceblue;
+}
+
+.work_container div img {
+  justify-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding: 0 30px 10px 0;
 }
 /*# sourceMappingURL=main.css.map */

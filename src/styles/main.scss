@@ -2,7 +2,7 @@
 
 
 * {
-    //outline: solid 1px black;
+    // outline: solid 1px black;
     margin: 0;
 }
 
@@ -19,11 +19,11 @@ body {
     height: 200px;
     margin-bottom: 12px;
     background-color: $Dark-blue;
+    border-radius: $border-radius;
 }
 
 .first-container {
     margin-top: 32px;
-    border-radius: $border-radius;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -78,6 +78,69 @@ body {
                 font-family: $Rubik;
                 font-weight: 300;
             }
+        }
+    }
+}
+
+.block2 {
+    width: 300px;
+    height: 160px;
+}
+
+.work_container {
+    background-color: $Light-red-work;
+    position: relative;
+
+    .main-img {
+        position: absolute;
+        right: 0;
+        top: -10px;
+    }
+
+    div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        background-color: $Dark-blue;
+        border-radius: $border-radius;
+        width: 300px;
+        height: 112px;
+        position: absolute;
+        bottom: -2px;
+
+        h3 {
+            font-family: $Rubik;
+            font-weight: 400;
+            font-size: 18px;
+            color: aliceblue;
+            justify-self: flex-start;
+            padding-left: 20px;
+            padding-bottom: 4px;
+            align-self: flex-end;
+        }
+
+        p {
+            &:last-child {
+                font-family: $Rubik;
+                font-weight: 300;
+                font-size: 16px;
+                color: $Pale-Blue;
+                padding: 9px 0 0 0;
+            }
+
+            &:nth-child(3) {
+                font-family: $Rubik;
+                font-weight: 300;
+                font-size: 30px;
+                padding-left: 20px;
+                color: aliceblue;
+            }
+        }
+
+        img {
+            justify-self: flex-end;
+            align-self: flex-end;
+            padding: 0 30px 10px 0;
         }
     }
 }
