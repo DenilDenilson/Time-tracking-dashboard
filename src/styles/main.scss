@@ -17,7 +17,7 @@ body {
 .block {
     width: 300px;
     height: 200px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     background-color: $Dark-blue;
     border-radius: $border-radius;
 }
@@ -84,7 +84,7 @@ body {
 
 .block2 {
     width: 300px;
-    height: 160px;
+    height: 145px;
 }
 
 .work_container {
@@ -95,6 +95,16 @@ body {
         position: absolute;
         right: 0;
         top: -10px;
+        right: 16px;
+    }
+
+    .eraser-img {
+        background-color: $Very-dark-blue;
+        height: 10px;
+        width: 100px;
+        position: absolute;
+        top: -10px;
+        right: 16px;
     }
 
     div {
