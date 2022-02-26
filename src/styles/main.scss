@@ -20,7 +20,18 @@ body {
     margin-bottom: 20px;
     background-color: $Dark-blue;
     border-radius: $border-radius;
+
+    div {
+        &:last-child {
+            &:hover {
+                background-color: $Desaturated-blue;
+                cursor: pointer;
+            }
+        }
+    }
 }
+
+
 
 .first-container {
     margin-top: 32px;
@@ -79,6 +90,11 @@ body {
                 color: $Pale-Blue;
                 font-family: $Rubik;
                 font-weight: 300;
+
+                &:hover {
+                    color: aliceblue;
+                    font-weight: 400;
+                }
             }
         }
     }
