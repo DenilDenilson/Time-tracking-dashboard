@@ -17,9 +17,9 @@
 
 # Carpetas a ignorar
 design
-images
+#images
 node_modules
-# Archivos a ignorar
+# Archivos a ignorargi
 # README.md
 # README-template.md
 
